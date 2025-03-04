@@ -170,3 +170,23 @@ Happy coding!
 ## Resources
 
 - [Markdown Cheat Sheet](https://www.markdownguide.org/cheat-sheet/)
+
+
+ Wildlife Patrol Tracker
+
+This is a Python CLI application for wildlife patrol teams to log patrol activities, record wildlife sightings, and report incidents using an SQLite database. In this version, the data model is implemented as classes with getters and setters, and CRUD operations are performed using Python's built-in `sqlite3` module (without SQLAlchemy).
+
+## Features
+
+- **User Management:** Create, delete, display, and search users.
+- **Patrol Log Management:** Create, delete, display patrol logs, view details (including related sightings and incidents), and search by location.
+- **Wildlife Sightings:** Create, delete, display sightings, and search by species.
+- **Incident Management:** Create, delete, display incidents, and search by incident type.
+
+## Setup Instructions
+
+1. **Clone the repository.**
+2. **Navigate to the project directory.**
+3. **Install dependencies (if any):**
+   ```bash
+   pipenv install

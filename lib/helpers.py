@@ -15,7 +15,6 @@ from models.user import User
 from models.patrol_log import PatrolLog
 from models.sighting import WildlifeSighting
 from models.incident import Incident
-
 # Initialize the database tables.
 initialize_db()
 
